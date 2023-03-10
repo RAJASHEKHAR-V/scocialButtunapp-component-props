@@ -1,0 +1,125 @@
+/* Write your code here. */
+
+.bg-Container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: "Bree Serif";
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.btn-Container {
+  width: 80%;
+  height: 30vh;
+}
+
+.btn1 {
+  min-width: 60px;
+  min-height: 40px;
+  background-color: #eab308;
+  font-family: "Roboto";
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn2 {
+  min-width: 60px;
+  min-height: 40px;
+  background-color: #ffffff;
+  font-family: "Roboto";
+  color: #323f4b;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn3 {
+  min-width: 60px;
+  min-height: 40px;
+  background-color: #1d4ed8;
+  font-family: "Roboto";
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+  .heading {
+    font-size: 25px;
+  }
+
+  .btn-Container {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .btn1 {
+    width: 25%;
+    height: 25%;
+    font-size: 12px;
+  }
+
+  .btn2 {
+    width: 25%;
+    height: 25%;
+    font-size: 12px;
+  }
+  .btn3 {
+    width: 25%;
+    height: 25%;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-Container {
+    height: 200vh;
+  }
+
+  .heading {
+    font-size: 40px;
+  }
+
+  .btn-Container {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .btn1 {
+    width: 30%;
+    max-width: 150px;
+    height: 30%;
+    max-height: 50px;
+    font-size: 15px;
+  }
+
+  .btn2 {
+    width: 30%;
+    max-width: 150px;
+    height: 30%;
+    max-height: 50px;
+    font-size: 15px;
+  }
+  .btn3 {
+    width: 30%;
+    max-width: 150px;
+    height: 30%;
+    max-height: 50px;
+    font-size: 15px;
+  }
+}
